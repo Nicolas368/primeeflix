@@ -19,7 +19,33 @@ h1 {
 main {
     padding: 20px;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+header {
+    background: #0073e6;
+    color: white;
+…
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KpDg5bE9pZQ?si=ViVzdHNr_PqWMghI" title="YouTube video player" frameborder="0" allow="accelerometerautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></ifrbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+…
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KpDg5bE9pZQ?si=ViVzdHNr_PqWMghI" title="YouTube video player" frameborder="0" allow="accelerometerautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></ifr
 .video-catalog {
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +55,7 @@ main {
 .video-item {
     background: white;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 10px;
     width: 300px;
@@ -55,3 +81,5 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+<link rel="stylesheet" href="styles.css"></head><body><header>PRIMEFLIX</header><h1>TIRANDO PEGA NA TRILHA DE MOTO !</h1><p>#trilha-de-moto</p><iframe width="560" height="315" src="https://www.youtube.com/embed/KpDg5bE9pZQ?si=ViVzdHNr_PqWMghI" title="YouTube video player" frameborder="0" allow="accelerometerautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></ifr

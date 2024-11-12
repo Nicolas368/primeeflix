@@ -1,85 +1,60 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #141313;
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
-    background: #0073e6;
-    color: rgb(27, 26, 26);
-    padding: 10px 0;
-    text-align: center;
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
 }
 
 h1 {
-    margin: 0;
+    font-size: 40px;
 }
 
-main {
-    padding: 20px;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #0e0d0d;
+p {
+    font-size: 20px;
 }
 
-header {
-    background: #0073e6;
-    color: rgb(0, 0, 0);
-…
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KpDg5bE9pZQ?si=ViVzdHNr_PqWMghI" title="YouTube video player" frameborder="0" allow="accelerometerautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></ifrbody {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #0073e6;
-    color: rgb(0, 0, 0);
-…
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KpDg5bE9pZQ?si=ViVzdHNr_PqWMghI" title="YouTube video player" frameborder="0" allow="accelerometerautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></ifr
-.video-catalog {
+.categoria-videos {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    overflow-x: auto;
+    gap: 10px;
 }
 
-.video-item {
-    background: rgb(0, 0, 0);
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
 }
 
-.video-item h2 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-iframe {
-    width: 100%;
+.categoria-videos img {
+    opacity: 0.5;
     height: 200px;
-    border: none;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #0073e6;
-    color: rgb(0, 0, 0);
-    position: relative;
-    bottom: 0;
-    width: 100%;
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
 }
 
-<link rel="stylesheet" href="styles.css"></head><body><header>PRIMEFLIX</header><h1>TIRANDO PEGA NA TRILHA DE MOTO !</h1><p>#trilha-de-moto</p><iframe width="560" height="315" src="https://www.youtube.com/embed/KpDg5bE9pZQ?si=ViVzdHNr_PqWMghI" title="YouTube video player" frameborder="0" allow="accelerometerautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></ifr
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
